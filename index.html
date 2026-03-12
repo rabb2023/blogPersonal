@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Mi Blog Personal</h1>
+    <p>Noticias, tecnología y más</p>
+</header>
+
+<main>
+
+    <article class="post">
+
+        <h2>Primer artículo</h2>
+        <p class="date">10 Marzo 2026</p>
+
+        <img src="https://picsum.photos/800/400" alt="Imagen del artículo">
+
+        <p class="content">
+            Este es el contenido del primer artículo del blog.
+            Aquí puedes escribir noticias, tutoriales o cualquier tema.
+        </p>
+
+        <button onclick="togglePost(this)">Leer menos</button>
+
+    </article>
+
+
+    <article class="post">
+
+        <h2>Segundo artículo</h2>
+        <p class="date">9 Marzo 2026</p>
+
+        <img src="https://picsum.photos/800/401" alt="Imagen del artículo">
+
+        <p class="content">
+            Este es otro artículo de ejemplo. Puedes agregar
+            tantas publicaciones como quieras.
+        </p>
+
+        <button onclick="togglePost(this)">Leer menos</button>
+
+    </article>
+
+</main>
+
+<footer>
+    <p>© 2026 Mi Blog</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
